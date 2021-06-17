@@ -1,13 +1,13 @@
-package com.laughing.electricity;
+package com.laughing.electricity.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ElectricityMemberApplication {
+public class ElectricityOrderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ElectricityMemberApplication.class, args);
+		SpringApplication.run(ElectricityOrderApplication.class, args);
 	}
 
 }

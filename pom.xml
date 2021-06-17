@@ -16,6 +16,7 @@
 		<module>electricity-ware</module>
 		<module>renren-fast</module>
 		<module>electricity-common</module>
+		<module>renren-generator</module>
 	</modules>
 
 </project>
