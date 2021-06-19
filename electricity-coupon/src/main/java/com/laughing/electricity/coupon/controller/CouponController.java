@@ -31,6 +31,18 @@ public class CouponController {
     private CouponService couponService;
 
     /**
+     * 模拟优惠券
+     * @return 优惠券
+     */
+    @RequestMapping("/member/list")
+    public R memberCoupon() {
+        // 模拟优惠券
+        CouponEntity coupon = new CouponEntity();
+        coupon.setCouponName("满199减100");
+        return R.ok().put("coupons", Arrays.asList(coupon));
+    }
+
+    /**
      * 列表
      */
     @RequestMapping("/list")
