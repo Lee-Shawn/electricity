@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @FeignClient("electricity-coupon") // 告诉 SpringCloud 这是一个远程客户端，调用 coupon 服务
 public interface CouponFeignService {
+    // 这里是直接复制优惠券服务中定义的方法签名
     // 会员优惠券服务
     @RequestMapping("/coupon/coupon/member/list")
     public R memberCoupon();
