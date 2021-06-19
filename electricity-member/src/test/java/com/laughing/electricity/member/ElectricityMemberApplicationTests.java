@@ -1,10 +1,10 @@
-package com.laughing.electricity;
+package com.laughing.electricity.member;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ElectricityOrderApplicationTests {
+class ElectricityMemberApplicationTests {
 
 	@Test
 	void contextLoads() {
