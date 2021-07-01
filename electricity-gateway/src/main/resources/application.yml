@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: zhibo8
+          uri: https://www.zhibo8.cc
+          predicates:
+            - Query=url,zhibo8
+        - id: bing
+          uri: https://bing.com
+          predicates:
+            - Query=url,bing
